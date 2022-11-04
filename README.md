@@ -31,10 +31,18 @@ db is connect mongodb://localhost:27017/**name_of_database**
 ## Ejecutando las pruebas ⚙️
 
 
-_Explica que verifican estas pruebas y por qué_
+**Sign Up.** Puede Probar el Modelo usando Postman o cualquier plataforma que le permita usar una API. El modelo tiene una validacion que no permite guardar correos que ya esten registrados.
 
 ```
-Da un ejemplo
+Para Probar el Sign Up. Ingresando el siguiente ejemplo en formato json
+{
+    "name": "David",
+    "lastName": "Valecillos",
+    "identification": "4521874",
+    "email":"davidvalecilloscorreo@gmail.com",
+    "password": "123contra"
+}
+
 ```
 
 
