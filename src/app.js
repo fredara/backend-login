@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.set('trust proxy', 1) 
 app.use(
     cookieSession({
-        name: "avilatekSession",
+        name: "backend-login-cookie",
         secret: config.SECRET,
         httpOnly: true,
         keys: ['key1','key2']

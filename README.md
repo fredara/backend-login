@@ -1,15 +1,20 @@
-# Título del Proyecto
+# ApiRest Login
 
-Test para el puedo de Backend en Avilatek 
+Sign Up 
+Sign In
+Sign Out
+Paginacion de Usuarios
+
 
 ### Instalación 🔧
 
 Copiar repositorio
 Instalar las dependecias
 Agregar el archivo . env al proyecto (Enviado al correo)
+Stack MongoDB NodeJS ExpressJS
 
 ```
-git clone https://github.com/fredara/avilatek-backend.git
+git clone https://github.com/fredara/backend-login.git
 ```
 
 

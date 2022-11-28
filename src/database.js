@@ -1,5 +1,5 @@
 const mongoose   = require("mongoose");
-const URI = "mongodb://localhost:27017/db_avilatek"
+const URI = "mongodb://localhost:27017/db_backend-login"
 
 const db = require("./models");
 const Role = db.role;
